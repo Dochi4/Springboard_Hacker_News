@@ -1,0 +1,41 @@
+/* Login and signup forms */
+
+.account-form button {
+  width: 4rem;
+  margin-left: 80px;
+}
+
+#signup-form button {
+  width: 8rem;
+}
+
+.account-forms-container {
+  padding-left: 20px;
+}
+.favorite-box {
+  visibility:hidden;
+  font-size:20px;
+  height: 20px;
+  margin: 0.5rem;
+  
+}
+.favorite-box:before {
+ content: "\2606";
+ position: absolute;
+ visibility:visible;
+}
+.favorite-box:checked:before {
+ content: "\2605";
+ position: absolute;
+ color: gray;
+}
+
+.delete-button{
+  display: flex;
+  font-weight: bold;
+  margin-left: 3em;
+  margin-top: 0.5em;
+  font-size: 0.7rem;
+  color: rgb(255, 0, 0);
+  align-self: center;
+}
